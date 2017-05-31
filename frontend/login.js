@@ -6,4 +6,14 @@ templateUrl:'/login.html',
 controller:'loginCtrl'
 })
 
-});
+
+    .state('user' , {
+        url:'users',
+        templateUrl:'/users.html',
+        controller: 'profileCtrl'
+    })
+
+})
+
+
+
